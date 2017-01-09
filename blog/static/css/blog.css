@@ -55,3 +55,9 @@ align-self: center;
 .img-circle {
   border-radius: 100px;
 }
+
+#footer {
+  background-color: red;
+  color: #333;
+  text-align: center;
+}
