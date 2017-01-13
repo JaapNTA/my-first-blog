@@ -14,7 +14,6 @@ urlpatterns = [
     url(r'^post/(?P<pk>\d+)/remove/$', views.post_remove, name='post_remove'),
     url(r'^post/(?P<pk>\d+)/comment/$', views.add_comment_to_post, name='add_comment_to_post'),
     url(r'^api/$', views.PostList.as_view()),
-    url(r'^api/(?P<pk>[0-9]+)$', views.PostList.as_view()),
     ]
 
 urlpatterns = format_suffix_patterns(urlpatterns)
